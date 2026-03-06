@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { projects, categories, CategoryKey, digitalArtPage } from "../../data/projects";
-import { useSearchParams } from "next/navigation";
 
-export const dynamic = "force-dynamic";
+
+
 
 export default function DigitalArtPage() {
   const PAGE_SIZE = 8;
@@ -19,13 +19,18 @@ export default function DigitalArtPage() {
   const [active, setActive] = useState<string>("All");
   const [visible, setVisible] = useState(PAGE_SIZE);
 
-  const searchParams = useSearchParams();
+  
 
-  useEffect(() => {
-    const cat = searchParams.get("cat");
-    if (cat) setActive(cat);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchParams]);
+useEffect(() => {
+  if (typeof window === "undefined") return;
+
+  const params = new URLSearchParams(window.location.search);
+  const cat = params.get("cat");
+
+  if (cat) {
+    setActive(cat);
+  }
+}, []);
 
   useEffect(() => {
     setMounted(true);
