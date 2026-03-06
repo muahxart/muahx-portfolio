@@ -1,26 +1,137 @@
 @import "tailwindcss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+/* ============================= */
+/* COLORI BASE */
+/* ============================= */
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #111111;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter);
+  font-weight: 400;
+}
+
+/* ============================= */
+/* TIPOGRAFIA */
+/* ============================= */
+
+h1,
+h2,
+h3 {
+  font-weight: 200; /* Inter ExtraLight */
+  letter-spacing: -0.02em;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Varianti peso personalizzate */
+.text-medium {
+  font-weight: 500;
+}
+
+.text-semibold {
+  font-weight: 600;
+}
+
+/* ============================= */
+/* LOGO */
+/* ============================= */
+
+.logo-text {
+  font-family: var(--font-montserrat);
+  font-weight: 300;
+  letter-spacing: 0.08em;
+}
+
+/* ============================= */
+/* LINK */
+/* ============================= */
+
+a {
+  text-decoration: none;
+}
+
+/* Hover elegante per menu */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+/* HOME HERO - floating subjects */
+@keyframes floatSoftA {
+  0%   { transform: translateY(0) scale(1); }
+  50%  { transform: translateY(-4px) scale(1.02); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+@keyframes floatSoftB {
+  0%   { transform: translateY(0) scale(1); }
+  50%  { transform: translateY(-3px) scale(1.018); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+/* Rispetta chi ha ridotto le animazioni */
+@media (prefers-reduced-motion: reduce) {
+  .hero-float-a,
+  .hero-float-b {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* Animazioni (desktop) */
+.hero-float-a {
+  animation: floatSoftA 7s ease-in-out infinite;
+  will-change: transform;
+}
+
+.hero-float-b {
+  animation: floatSoftB 8s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Su mobile ancora più delicato */
+@media (max-width: 640px) {
+  @keyframes floatSoftA {
+    0%   { transform: translateY(0) scale(1); }
+    50%  { transform: translateY(-2px) scale(1.012); }
+    100% { transform: translateY(0) scale(1); }
+  }
+
+  @keyframes floatSoftB {
+    0%   { transform: translateY(0) scale(1); }
+    50%  { transform: translateY(-2px) scale(1.01); }
+    100% { transform: translateY(0) scale(1); }
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
