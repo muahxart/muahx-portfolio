@@ -5,6 +5,8 @@ import { useEffect, useMemo, useState } from "react";
 import { projects, categories, CategoryKey, digitalArtPage } from "../../data/projects";
 import { useSearchParams } from "next/navigation";
 
+export const dynamic = "force-dynamic";
+
 export default function DigitalArtPage() {
   const PAGE_SIZE = 8;
 
