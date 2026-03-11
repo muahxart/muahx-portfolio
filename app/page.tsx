@@ -134,12 +134,12 @@ export default function HomePage() {
             <img
               src="/images/home/left.png"
               alt="Left subject"
-              className="hero-float-a absolute left-4 md:left-10 top-1/2 -translate-y-1/2 h-[90px] md:h-[380px] w-auto select-none pointer-events-none"
+              className="hero-float-a absolute left-4 md:left-10 top-1/2 -translate-y-1/2 h-[140px] md:h-[380px] w-auto select-none pointer-events-none"
             />
             <img
               src="/images/home/right.png"
               alt="Right subject"
-              className="hero-float-b absolute right-4 md:right-10 top-1/2 -translate-y-1/2 h-[90px] md:h-[380px] w-auto select-none pointer-events-none"
+              className="hero-float-b absolute right-4 md:right-10 top-1/2 -translate-y-1/2 h-[140px] md:h-[380px] w-auto select-none pointer-events-none"
             />
             <div className="flex items-center justify-center">
               <img

@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { projects, categories } from "../../../data/projects";
+import { projects, categories, digitalArtPage } from "../../../data/projects";
 import Lightbox from "../../../components/Lightbox";
 
 type Props = {
@@ -246,24 +246,33 @@ export default function ProjectPage({ params }: Props) {
           </div>
 
           {/* RIGHT */}
-          <div>
-            <h2 className="text-2xl font-semibold tracking-[0.02em]">
-              {project?.title}
-            </h2>
+<div>
+  <h2 className="text-2xl font-semibold tracking-[0.02em]">
+    {project?.title}
+  </h2>
 
-            <p className="mt-6 text-base leading-relaxed">
-              {project?.shortDescription}
-            </p>
+  {project && (
+    <div className="mt-4 space-y-1 text-sm leading-relaxed text-black/80">
+      <p>{new Date(project.date).getFullYear()} — Digital Art</p>
+      <p>Project: {digitalArtPage.title}</p>
+      <p>Series: {categories[project.category].title}</p>
+      
+    </div>
+  )}
 
-            <div className="mt-10">
-              <button
-                disabled
-                className="inline-flex items-center justify-center rounded-2xl bg-[#3BDF00] px-8 py-4 text-sm text-white transition duration-300 hover:brightness-95 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                Submit request
-              </button>
-            </div>
-          </div>
+  <p className="mt-6 text-base leading-relaxed">
+    {project?.shortDescription}
+  </p>
+
+  <div className="mt-10">
+    <button
+      disabled
+      className="inline-flex items-center justify-center rounded-2xl bg-[#3BDF00] px-8 py-4 text-sm text-white transition duration-300 hover:brightness-95 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
+    >
+      Submit request
+    </button>
+  </div>
+</div>
         </div>
       </section>
 

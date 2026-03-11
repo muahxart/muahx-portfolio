@@ -53,9 +53,11 @@ export const projects: Project[] = [
     date: "2025-02-15",
     images: [
       "/images/projects/beatles/main.jpg",
-      "/images/projects/beatles/50x50.jpg",
-      "/images/projects/beatles/90x90.jpg",
-
+      "/images/projects/beatles/detail-1.jpg",
+      "/images/projects/beatles/detail-2.jpg",
+      "/images/projects/beatles/detail-3.jpg",
+      "/images/projects/beatles/detail-4.jpg",
+      "/images/projects/beatles/mockup.jpg",
     ],
     genesisImages: [
     
@@ -77,8 +79,10 @@ export const projects: Project[] = [
     date: "2024-11-28",
     images: [
       "/images/projects/nirvana/main.jpg",
-      "/images/projects/nirvana/50x50.jpg",
-      "/images/projects/nirvana/90x90.jpg",
+      "/images/projects/nirvana/detail-1.jpg",
+      "/images/projects/nirvana/detail-2.jpg",
+      "/images/projects/nirvana/detail-3.jpg",
+      "/images/projects/nirvana/mockup.jpg",
 
     ],
     genesisImages: [
@@ -100,8 +104,11 @@ export const projects: Project[] = [
     date: "2024-04-03",
     images: [
       "/images/projects/village_people/main.jpg",
-      "/images/projects/village_people/50x50.jpg",
-      "/images/projects/village_people/90x90.jpg",
+      "/images/projects/village_people/detail-1.jpg",
+      "/images/projects/village_people/detail-2.jpg",
+      "/images/projects/village_people/detail-3.jpg",
+      "/images/projects/village_people/detail-4.jpg",
+      "/images/projects/village_people/mockup.jpg",
 
     ],
     genesisImages: [
@@ -123,8 +130,10 @@ export const projects: Project[] = [
     date: "2025-05-18",
     images: [
       "/images/projects/jsparrow/main.jpg",
-      "/images/projects/jsparrow/50x50.jpg",
-      "/images/projects/jsparrow/90x90.jpg",
+      "/images/projects/jsparrow/detail-1.jpg",
+      "/images/projects/jsparrow/detail-2.jpg",
+      "/images/projects/jsparrow/detail-3.jpg",
+      "/images/projects/jsparrow/mockup.jpg",
 
     ],
     genesisImages: [
@@ -146,8 +155,10 @@ export const projects: Project[] = [
     date: "2026-01-11",
     images: [
       "/images/projects/edward/main.jpg",
-      "/images/projects/edward/50x50.jpg",
-      "/images/projects/edward/90x90.jpg",
+      "/images/projects/edward/detail-1.jpg",
+      "/images/projects/edward/detail-2.jpg",
+      "/images/projects/edward/detail-3.jpg",
+      "/images/projects/edward/mockup.jpg",
 
     ],
     genesisImages: [
@@ -169,8 +180,9 @@ export const projects: Project[] = [
     date: "2025-07-11",
     images: [
       "/images/projects/robin_hood/main.jpg",
-      "/images/projects/robin_hood/50x50.jpg",
-      "/images/projects/robin_hood/90x90.jpg",
+      "/images/projects/robin_hood/detail-1.jpg",
+      "/images/projects/robin_hood/detail-2.jpg",
+      "/images/projects/robin_hood/mockup.jpg",
 
     ],
     genesisImages: [
@@ -192,8 +204,11 @@ export const projects: Project[] = [
     date: "2025-10-08",
     images: [
       "/images/projects/faraoni/main.jpg",
-      "/images/projects/faraoni/50x50.jpg",
-      "/images/projects/faraoni/90x90.jpg",
+      "/images/projects/faraoni/detail-1.jpg",
+      "/images/projects/faraoni/detail-2.jpg",
+      "/images/projects/faraoni/detail-3.jpg",
+      "/images/projects/faraoni/detail-4.jpg",
+      "/images/projects/faraoni/mockup.jpg",
 
     ],
     genesisImages: [
@@ -215,8 +230,12 @@ export const projects: Project[] = [
     date: "2026-03-04",
     images: [
       "/images/projects/san_benedetto/main.jpg",
-      "/images/projects/san_benedetto/50x50.jpg",
-      "/images/projects/san_benedetto/90x90.jpg",
+      "/images/projects/san_benedetto/detail-1.jpg",
+      "/images/projects/san_benedetto/detail-2.jpg",
+      "/images/projects/san_benedetto/detail-3.jpg",
+      "/images/projects/san_benedetto/detail-4.jpg",
+      "/images/projects/san_benedetto/detail-5.jpg",
+      "/images/projects/san_benedetto/mockup.jpg",
 
     ],
     genesisImages: [
