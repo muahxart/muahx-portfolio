@@ -60,7 +60,10 @@ export const projects: Project[] = [
       "/images/projects/beatles/mockup.jpg",
     ],
     genesisImages: [
-    
+      "/images/projects/beatles/genesis/vector.jpg",
+      "/images/projects/beatles/genesis/blender.jpg",
+      "/images/projects/beatles/genesis/main.jpg",
+      "/images/projects/beatles/genesis/mockup.jpg",    
     ],
     shortDescription:
       "Inspired by the imaginative universe of the Beatles’ Yellow Submarine, the musicians are transformed into playful marine creatures.",
@@ -70,7 +73,7 @@ export const projects: Project[] = [
     whyText:
       "This work originates from the imaginative universe of the Beatles’ song Yellow Submarine. I transformed the musicians into marine creatures to represent the creative freedom of their music. The sea becomes a symbolic space where imagination, irony, and pop culture meet.",
     genesisText:
-      "GENESI: Coming soon.",
+      "",
   },
   {
     slug: "nirvana",
@@ -86,7 +89,10 @@ export const projects: Project[] = [
 
     ],
     genesisImages: [
-
+      "/images/projects/nirvana/genesis/vector.jpg",
+      "/images/projects/nirvana/genesis/blender.jpg",
+      "/images/projects/nirvana/genesis/main.jpg",
+      "/images/projects/nirvana/genesis/mockup.jpg",
     ],
     shortDescription:
       "A visual reinterpretation inspired by Nirvana’s Come As You Are, where the band becomes part of a surreal aquatic transformation.",
@@ -95,7 +101,7 @@ export const projects: Project[] = [
     whyText:
       "Inspired by the musical universe of Nirvana and the song Come As You Are, the work represents a visual transformation that reflects the raw and authentic energy of grunge. The metamorphosis of the figures suggests the constant evolution of artistic identity and the expressive freedom of music.",
     genesisText:
-      "GENESI: Coming soon",
+      "",
   },
   {
     slug: "village_people",
@@ -112,7 +118,10 @@ export const projects: Project[] = [
 
     ],
     genesisImages: [
-
+      "/images/projects/village_people/genesis/vector.jpg",
+      "/images/projects/village_people/genesis/blender.jpg",
+      "/images/projects/village_people/genesis/main.jpg",
+      "/images/projects/village_people/genesis/mockup.jpg",
     ],
     shortDescription:
       "Inspired by the iconic songs YMCA and In the Navy, the Village People appear as a playful marine crew celebrating music, rhythm, and imagination.",
@@ -121,7 +130,7 @@ export const projects: Project[] = [
     whyText:
       "This work was created from the desire to reinterpret the playful energy of the Village People and their songs YMCA and In the Navy. The characters become a kind of imaginary marine crew, transforming disco iconography into an ironic and fantastical scene.",
     genesisText:
-      "GENESI: Coming soon",
+      "",
   },
   {
     slug: "jsparrow",
@@ -137,7 +146,10 @@ export const projects: Project[] = [
 
     ],
     genesisImages: [
-
+      "/images/projects/jsparrow/genesis/vector.jpg",
+      "/images/projects/jsparrow/genesis/blender.jpg",
+      "/images/projects/jsparrow/genesis/main.jpg",
+      "/images/projects/jsparrow/genesis/mockup.jpg",
     ],
     shortDescription:
       "Inspired by Pirates of the Caribbean: The Curse of the Black Pearl, the iconic pirate figure is reimagined through a playful and imaginative visual transformation.",
@@ -146,7 +158,7 @@ export const projects: Project[] = [
     whyText:
       "This work is inspired by the imagery of the film Pirates of the Caribbean: The Curse of the Black Pearl. The pirate character becomes a symbol of adventure, freedom, and rebellious spirit, reinterpreted in a fantastical way through the language of collage.",
     genesisText:
-      "GENESI: Coming soon",
+      "",
   },
   {
     slug: "edward",
@@ -162,7 +174,10 @@ export const projects: Project[] = [
 
     ],
     genesisImages: [
-
+      "/images/projects/edward/genesis/vector.jpg",
+      "/images/projects/edward/genesis/blender.jpg",
+      "/images/projects/edward/genesis/main.jpg",
+      "/images/projects/edward/genesis/mockup.jpg",
     ],
     shortDescription:
       "Inspired by Edward Scissorhands, the character is reinterpreted through a poetic and surreal visual transformation.",
@@ -171,7 +186,7 @@ export const projects: Project[] = [
     whyText:
       "Inspired by the character of Edward Scissorhands, this work explores the poetic and melancholic dimension of the story. The visual transformation evokes the contrast between fragility and imagination that defines this iconic cinematic character.",
     genesisText:
-      "GENESI: Coming soon",
+      "",
   },
   {
     slug: "robin_hood",
@@ -186,7 +201,10 @@ export const projects: Project[] = [
 
     ],
     genesisImages: [
-
+      "/images/projects/robin_hood/genesis/vector.jpg",
+      "/images/projects/robin_hood/genesis/blender.jpg",
+      "/images/projects/robin_hood/genesis/main.jpg",
+      "/images/projects/robin_hood/genesis/mockup.jpg",
     ],
     shortDescription:
       "Inspired by the legend of Robin Hood, the iconic archer of Sherwood Forest is reimagined through a playful and imaginative visual transformation.",
@@ -195,7 +213,7 @@ export const projects: Project[] = [
     whyText:
       "This work takes inspiration from the legendary figure of Robin Hood. The archer of Sherwood becomes a symbol of freedom, justice, and rebellion against injustice, reimagined through a visual composition that blends myth and imagination.",
     genesisText:
-      "GENESI: Coming soon",
+      "",
   },
   {
     slug: "faraoni",
@@ -212,7 +230,10 @@ export const projects: Project[] = [
 
     ],
     genesisImages: [
-
+      "/images/projects/faraoni/genesis/vector.jpg",
+      "/images/projects/faraoni/genesis/blender.jpg",
+      "/images/projects/faraoni/genesis/main.jpg",
+      "/images/projects/faraoni/genesis/mockup.jpg",
     ],
     shortDescription:
       "Inspired by the ancient civilization of Egypt, the pharaohs appear as symbolic guardians of Giza, with the pyramids and the Sphinx representing the enduring legacy of human knowledge and culture.",
@@ -221,7 +242,7 @@ export const projects: Project[] = [
     whyText:
       "This work is dedicated to the civilization of ancient Egypt and the extraordinary cultural legacy of Giza. The pharaohs become symbolic figures who guard the memory of one of the greatest civilizations in human history.",
     genesisText:
-      "GENESI: Coming soon",
+      "",
   },
   {
     slug: "san_benedetto",
@@ -239,7 +260,10 @@ export const projects: Project[] = [
 
     ],
     genesisImages: [
-
+      "/images/projects/san_benedetto/genesis/vector.jpg",
+      "/images/projects/san_benedetto/genesis/blender.jpg",
+      "/images/projects/san_benedetto/genesis/main.jpg",
+      "/images/projects/san_benedetto/genesis/mockup.jpg",
     ],
     shortDescription:
       "Inspired by the cultural transformation of San Benedetto del Tronto, the work reflects the shift from traditional fishing activities to modern seaside tourism.",
@@ -248,6 +272,6 @@ export const projects: Project[] = [
     whyText:
       "Inspired by the city of San Benedetto del Tronto, the work reflects the cultural transformation that has shifted the traditional fishing economy toward seaside tourism. The boats resting on the beach, far from the water, evoke the transition from a past linked to fishing to a new identity built around tourism.",
     genesisText:
-      "GENESI: Coming soon",
+      "",
   },
 ];
